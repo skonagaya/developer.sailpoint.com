@@ -1,0 +1,13 @@
+type: string
+enum:
+  - COMPOSITE
+  - ROLE
+  - IDENTITY
+  - IDENTITY_ATTRIBUTE
+  - ENTITLEMENT
+  - ACCESS_PROFILE
+  - SOURCE
+  - ACCOUNT
+  - AGGREGATED_ENTITLEMENT
+description: Type of the criteria in the filter. The `COMPOSITE` filter can contain multiple filters in an AND/OR relationship. 
+example: IDENTITY_ATTRIBUTE
